@@ -3,6 +3,7 @@ package com.example.seekbar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -10,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     SeekBar mSeekbarAlpha, mSeekbarRed, mSeekbarGreen, mSeekbarBlue;
     TextView txtHex, txtRBG;
+    LinearLayout block;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
         mSeekbarBlue = findViewById(R.id.seekbarBlue);
         txtHex = findViewById(R.id.txtHex);
         txtRBG = findViewById(R.id.txtRBG);
+        block = findViewById(R.id.block);
     }
 }
