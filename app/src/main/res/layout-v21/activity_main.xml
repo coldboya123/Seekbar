@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:progress="50"
+        android:progressBackgroundTint="@color/red"
+        android:progressTint="@color/red"
+        android:thumbTint="@color/red" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:progress="50"
+        android:progressBackgroundTint="@color/green"
+        android:progressTint="@color/green"
+        android:thumbTint="@color/green" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:progress="50"
+        android:progressBackgroundTint="@color/blue"
+        android:progressTint="@color/blue"
+        android:thumbTint="@color/blue" />
+
+</LinearLayout>
